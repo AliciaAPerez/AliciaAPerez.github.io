@@ -1,0 +1,25 @@
+/* Container for image in header */
+.container {
+    position: relative;
+    text-align: center;
+    color: purple;
+}
+
+/* text in container */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 300%;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: purple;
+    font-family: Verdana;}
+
+body {
+    background-color:purple;
+    background-image: url("../images/abstract-267046_1920.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;}
+
+h1{color:black;}
